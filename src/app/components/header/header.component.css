@@ -1,0 +1,18 @@
+.header-wrapper {
+    width: 100%;
+    background-color: #4F5C6F;
+    color: #545863;
+    padding-top: 70px;
+}
+
+.header-inner {
+    width: 80%;
+    background-color: #323A47;
+    color: white;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.second {
+    color: #227770;
+}

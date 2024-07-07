@@ -1,3 +1,4 @@
+import { state } from '@angular/animations';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'plants';
+  title = 'Plants';
 }

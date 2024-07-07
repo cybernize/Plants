@@ -1,0 +1,15 @@
+<div class="card-wrapper">
+    <div class="card-inner" *ngFor="let listItem of plantsList">
+        <div class="card-header">
+            <h4>{{listItem.title}}</h4>
+        </div>
+        <div class="card-body">
+            <div>{{listItem.subtitle}}</div>
+            <div>{{listItem.address}}</div>
+            <div>{{listItem.state}}</div>
+        </div>
+    </div>
+</div>
+<div class="btn-wrapper">
+    <button class="btn-load-more">Load More Results</button>
+</div>
